@@ -1,0 +1,14 @@
+サンプル<!DOCTYPE html>
+
+<html lang="jp" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>サンプル</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<h1>ユーザー詳細</h1>
+		<div>ユーザー名：<span th:text="${username}"></span></div>
+		<a th:href="@{/update_user}">ユーザーの編集</a>
+		<a th:href="@{/confirmation_exit}">退会する</a>
+	</body>
+</html>

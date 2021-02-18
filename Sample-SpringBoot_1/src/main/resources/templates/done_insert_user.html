@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html lang="jp" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>サンプル</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<h1>ユーザー登録完了</h1>
+		<p>ユーザー登録が完了しました。</p>
+		<form th:action="@{/done_insert_user}" method="post"> 
+			<input type="submit" value="ログイン" />
+		</form>
+	</body>
+</html>

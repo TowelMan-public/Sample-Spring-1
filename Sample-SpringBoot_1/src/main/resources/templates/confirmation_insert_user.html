@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html lang="jp" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>サンプル</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<h1>ユーザー登録確認</h1>
+		<form th:action="@{/confirmation_insert_user}" method="post"> 
+			<div >ユーザー名：<span th:text="${username}"></span></div>
+			<input type="submit" value="確認" />
+		</form>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html lang="jp" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>サンプル</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<h1>退会確認画面</h1>
+		<form th:action="@{/confirmation_exit}" method="post"> 
+			<input type="submit" value="退会する" />
+		</form>
+	</body>
+</html>
