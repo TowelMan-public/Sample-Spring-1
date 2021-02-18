@@ -19,7 +19,6 @@ import org.springframework.web.bind.support.SessionStatus;
 import com.example.demo.database.DatabaseMapper;
 import com.example.demo.form.InsertUserForm;
 
-import repository.SecurityRepository;
 
 @Controller
 @SessionAttributes(types = InsertUserForm.class)
